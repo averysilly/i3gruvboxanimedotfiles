@@ -1,7 +1,7 @@
 #!/bin/sh
 
 xrandr --output DP-0 --mode 2560x1440 --rate 165.15
-feh --bg-scale /home/averysilly/Pictures/Wallpapers/Kita.png &
+feh --bg-scale ~/Pictures/Wallpapers/Kita.png &
 picom &
 polybar &
 
