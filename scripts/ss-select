@@ -1,0 +1,5 @@
+#!/bin/bash
+export WAYLAND_DISPLAY=wayland-1
+export XDG_RUNTIME_DIR=/run/user/$(id -u)
+export PATH=$PATH:/usr/bin:/usr/local/bin
+grim -g "$(slurp)" - | wl-copy
